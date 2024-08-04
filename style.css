@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1440px;
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+.container {
+  width: 300px;
+  height: 500px;
+  background-color: hsl(0, 0%, 12%);
+  margin: 150px auto;
+  border-radius: 10px;
+}
+.card {
+  padding: 30px;
+}
+.profile {
+  text-align: center;
+}
+.profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.profile h5 {
+  color: hsl(75, 94%, 57%);
+  margin: 10px 0;
+}
+p {
+  margin: 20px 0px;
+  font-size: 12px;
+}
+.social-link {
+}
+.social-link ul {
+  list-style: none;
+}
+.social-link ul li a {
+  background: hsl(0, 0%, 20%);
+  width: 100%;
+  height: 30px;
+  margin: 15px 0px;
+  padding: 20px 0px;
+  border-radius: 5px;
+  text-align: center;
+  display: grid;
+  align-content: center;
+}
+.social-link ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.social-link ul li a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+
+.attribution {
+  text-align: center;
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    margin: 50px auto;
+    width: 90%;
+  }
+
+}
